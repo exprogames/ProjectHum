@@ -1,0 +1,48 @@
+ideas = {
+	country = {
+		
+		FAR_horrible_territory = {
+			picture = GFX_FAR_horrible_territory
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				production_factory_max_efficiency_factor = -0.3
+				production_factory_efficiency_gain_factor = -0.25
+				army_speed_factor = -0.2
+			}
+		}
+		
+		FAR_militaristic_democracy = {
+			picture = GFX_FAR_militaristic_democracy
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_core_defence_factor = 0.5
+				army_core_attack_factor = 0.4
+				army_org_factor = 0.4
+				training_time_army_factor = 0.1
+			}
+		}
+		
+		FAR_untouched_by_the_war = {
+			picture = GFX_FAR_untouched_by_the_war
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				research_speed_factor = 0.5
+			}
+		}
+	}
+}

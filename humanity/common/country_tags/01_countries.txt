@@ -1,0 +1,2 @@
+FAR	= "countries/Far Eastern Republic.txt"
+

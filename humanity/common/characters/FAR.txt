@@ -1,0 +1,17 @@
+characters={
+	FAR_Gavriil_Ratnikov={ 
+		name = GavriilRatnikov
+		portraits={
+			civilian={
+				large="GFX_portrait_FAR_Gavriil_Ratnikov"
+			}
+		}
+		country_leader={
+			ideology = military_democracy
+			traits={  }
+			expire="2240.1.1.1"
+			id=-1
+		}
+	}
+	
+}
