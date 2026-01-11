@@ -1,0 +1,22 @@
+bookmarks = { #THIS FILE WON'T BE SHOWN IN GAME BUT DON'T EVER TOUCH NOR DELETE THIS
+	bookmark = {
+		name = "PLACEHOLDER"
+		desc = "PLACEHOLDER"
+		date = 9999.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "USA"
+		default = yes
+
+		"USA" = {
+			history = "USA_CYBERHEARTS_DESC"
+			ideology = corporatocracy
+			ideas = { }
+			focuses = { }
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
