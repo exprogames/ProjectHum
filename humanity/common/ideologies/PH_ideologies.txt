@@ -81,7 +81,7 @@ ideologies = {
 				}
 			}
 		}
-			dynamic_faction_names = {
+		dynamic_faction_names = {
 			"FACTION_NAME_AUTHORITARIAN_SOCIALIST_1"
 			"FACTION_NAME_AUTHORITARIAN_SOCIALIST_2"
 			"FACTION_NAME_AUTHORITARIAN_SOCIALIST_3"

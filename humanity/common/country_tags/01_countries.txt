@@ -1,2 +1,3 @@
-FAR	= "countries/Far Eastern Republic.txt"
+FAR	= "countries/Russian States.txt"
+SWR	= "countries/Asian.txt"
 
