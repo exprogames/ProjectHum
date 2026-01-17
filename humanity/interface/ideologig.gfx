@@ -1,0 +1,27 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_ideology_authoritarian_socialist_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_socialist_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_libertarian_socialist_group"
+		texturefile = "gfx/interface/ideologies/libertarian_socialist_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democrat_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_democrat_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_libertarian_democrat_group"
+		texturefile = "gfx/interface/ideologies/libertarian_democrat_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_mutants_group"
+		texturefile = "gfx/interface/ideologies/mutants_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_banditism_group"
+		texturefile = "gfx/interface/ideologies/м_group.png"
+	}
+}
