@@ -8,8 +8,8 @@ bookmarks = { #THIS FILE WON'T BE SHOWN IN GAME BUT DON'T EVER TOUCH NOR DELETE 
 		default = yes
 
 		"USA" = {
-			history = "USA_CYBERHEARTS_DESC"
-			ideology = corporatocracy
+			history = "BLANK"
+			ideology = authoritarian_democrat
 			ideas = { }
 			focuses = { }
 		}

@@ -11,8 +11,8 @@ state = {
 
 	history = {
 
-		owner = GXC
-		add_core_of = GXC
+		owner = SWR
+		add_core_of = SWR
 
 		buildings = {
 			infrastructure = 2

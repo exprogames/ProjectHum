@@ -1,6 +1,6 @@
 characters={
 	FAR_Gavriil_Ratnikov={ 
-		name = GavriilRatnikov
+		name = FAR_Gavriil_Ratnikov
 		portraits={
 			civilian={
 				large="GFX_portrait_FAR_Gavriil_Ratnikov"
