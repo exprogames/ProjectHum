@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology = military_democracy
 			traits={  }
-			expire="2240.1.1.1"
+			expire="2200.1.1.1"
 			id=-1
 		}
 	}

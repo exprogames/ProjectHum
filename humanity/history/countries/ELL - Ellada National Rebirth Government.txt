@@ -1,10 +1,10 @@
-﻿capital = 592
+﻿capital = 731
 
 #oob = "FAR_2200"
 
 set_research_slots = 3
 
-recruit_character = SWR_Michael_Pricer
+recruit_character = ELL_Leonid_Kallistros
 
 # Starting tech
 set_technology = {
@@ -22,14 +22,14 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = authoritarian_socialist
+	ruling_party = despotism
 	last_election = "2200.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	authoritarian_socialist = 100
+	despotism = 100
 }
 
 add_ideas = {
