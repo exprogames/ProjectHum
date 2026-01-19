@@ -1212,3 +1212,7 @@ SWR = {
 	color = rgb { 166 13 13 }
 	color_ui = rgb { 166 13 13 }
 }
+COC = {
+	color = rgb { 255  216  0 }
+	color_ui = rgb { 255  216  0 }
+}
