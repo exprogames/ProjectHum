@@ -1,0 +1,15 @@
+spriteTypes = {	
+
+    SpriteType = {
+		name = "GFX_idea_FAR_horrible_territory"
+		texturefile = "gfx/interface/ideas/idea_FAR_horrible_territory.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_FAR_militaristic_democracy"
+		texturefile = "gfx/interface/ideas/idea_FAR_militaristic_democracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_FAR_untouched_by_the_war"
+		texturefile = "gfx/interface/ideas/idea_FAR_untouched_by_the_war.dds"
+	}
+} 
