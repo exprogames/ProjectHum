@@ -1,0 +1,4 @@
+FAR	= "countries/Russian States.txt"
+SWR	= "countries/Asian.txt"
+ELL	= "countries/Ellada National Rebirth Government.txt"
+
