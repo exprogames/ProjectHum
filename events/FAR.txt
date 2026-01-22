@@ -1,0 +1,15 @@
+add_namespace = far
+
+country_event = {
+	id = far.1
+	title = far.1.t
+	desc = far.1.d
+
+	is_triggered_only = yes
+	
+	option = {
+		name = far.1.a
+		
+		add_political_power = 100
+	}
+}

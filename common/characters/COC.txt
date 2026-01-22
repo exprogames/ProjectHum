@@ -1,0 +1,17 @@
+characters={
+	COC_Vitya_Golden_Eye ={ 
+		name = VityaGoldenEye
+		portraits={
+			civilian={
+				large="GFX_portrait_COC_Vitya_Golden_Eye"
+			}
+		}
+		country_leader={
+			ideology = cossack_gang
+			traits={  }
+			expire="2240.1.1.1"
+			id=-1
+		}
+	}
+	
+}
