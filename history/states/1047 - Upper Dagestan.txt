@@ -1,0 +1,22 @@
+state={
+	id=1047
+	name="STATE_1047"
+
+	history={
+		owner = COC
+		add_core_of = COC
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+	  683 700 712 728 6730 6748 11632
+	}
+	manpower = 1057400
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies=0.0 
+}
