@@ -1,9 +1,0 @@
-bitmapfonts = {
- 	bitmapfont = {
-		name = "tahoma_60"   
-		fontfiles = {
-		"gfx/fonts/hoi_mapfont4"
-	
-		}     
-	}
-}
