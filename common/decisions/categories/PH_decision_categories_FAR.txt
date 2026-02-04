@@ -1,0 +1,17 @@
+	FAR_balance_of_sanity_category = {
+		icon = GFX_FAR_sanity
+
+		visible_when_empty = yes
+
+		allowed = {
+			tag = FAR
+		}
+		
+		visible = {
+
+			has_completed_focus = FAR_state_of_our_leader
+		}
+		
+		priority = 1
+	}
+

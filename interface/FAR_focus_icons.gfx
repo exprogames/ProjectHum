@@ -1,0 +1,62 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_FAR_lonely_republic"
+		texturefile = "gfx/interface/goals/FAR/FAR_lonely_republic.dds"	
+	}
+	spriteType = {
+		name = "GFX_FAR_restoration_of_the_infrastructure"
+		texturefile = "gfx/interface/goals/FAR/FAR_restoration_of_the_infrastructure.dds"	
+	}
+	spriteType = {
+		name = "GFX_FAR_old_birds_flying"
+		texturefile = "gfx/interface/goals/FAR/FAR_old_birds_flying.dds"	
+	}
+	spriteType = {
+		name = "GFX_FAR_old_birds_flying"
+		texturefile = "gfx/interface/goals/FAR/FAR_old_birds_flying.dds"	
+	}
+	spriteType = {
+		name = "GFX_FAR_industry_working_again"
+		texturefile = "gfx/interface/goals/FAR/FAR_industry_working_again.dds"	
+	}
+	spriteType = {
+		name = "GFX_FAR_supplying_the_population"
+		texturefile = "gfx/interface/goals/FAR/FAR_supplying_the_population.dds"	
+	}
+	spriteType = {
+		name = "GFX_FAR_mutant_raids"
+		texturefile = "gfx/interface/goals/FAR/FAR_mutant_raids.dds"	
+	}
+	spriteType = {
+		name = "GFX_FAR_defend_our_land"
+		texturefile = "gfx/interface/goals/FAR/FAR_defend_our_land.dds"	
+	}
+	spriteType = {
+		name = "GFX_FAR_train_the_population"
+		texturefile = "gfx/interface/goals/FAR/FAR_train_the_population.dds"	
+	}
+	spriteType = {
+		name = "GFX_FAR_establish_reunification_commitee"
+		texturefile = "gfx/interface/goals/FAR/FAR_establish_reunification_commitee.dds"	
+	}
+	spriteType = {
+		name = "GFX_FAR_state_of_our_leader"
+		texturefile = "gfx/interface/goals/FAR/FAR_state_of_our_leader.dds"	
+	}
+	spriteType = {
+		name = "GFX_FAR_raid_the_shizos"
+		texturefile = "gfx/interface/goals/FAR/FAR_raid_the_shizos.dds"	
+	}
+	spriteType = {
+		name = "GFX_FAR_allies_abroad"
+		texturefile = "gfx/interface/goals/FAR/FAR_allies_abroad.dds"	
+	}
+	spriteType = {
+		name = "GFX_FAR_buying_weapons"
+		texturefile = "gfx/interface/goals/FAR/FAR_buying_weapons.dds"	
+	}
+	spriteType = {
+		name = "GFX_FAR_begin_the_reunification"
+		texturefile = "gfx/interface/goals/FAR/FAR_begin_the_reunification.dds"	
+	}
+}

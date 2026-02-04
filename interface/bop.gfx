@@ -1,0 +1,15 @@
+spriteTypes = {	
+
+    SpriteType = {
+		name = "GFX_bop_FAR_shizo"
+		texturefile = "gfx/interface/bop/FAR_schizo.png"
+	}
+	SpriteType = {
+		name = "GFX_bop_FAR_positive"
+		texturefile = "gfx/interface/bop/FAR_positive.png"
+	}
+	SpriteType = {
+		name = "GFX_FAR_sanity"
+		texturefile = "gfx/interface/bop/sanity.png"
+	}
+} 

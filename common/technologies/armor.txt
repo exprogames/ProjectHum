@@ -5,53 +5,7 @@ technologies = {
 		enable_equipments = {
 			gw_tank_equipment
 			
-			light_tank_equipment_1
-			light_tank_destroyer_equipment_1
-			light_tank_artillery_equipment_1
-			light_tank_aa_equipment_1
-			light_tank_equipment_2
-			light_tank_destroyer_equipment_2
-			light_tank_artillery_equipment_2
-			light_tank_aa_equipment_2
-			light_tank_equipment_3
-			light_tank_destroyer_equipment_3
-			light_tank_artillery_equipment_3
-			light_tank_aa_equipment_3
 			
-			medium_tank_equipment_1
-			medium_tank_destroyer_equipment_1
-			medium_tank_artillery_equipment_1
-			medium_tank_aa_equipment_1
-			medium_tank_equipment_2
-			medium_tank_destroyer_equipment_2
-			medium_tank_artillery_equipment_2
-			medium_tank_aa_equipment_2
-			medium_tank_equipment_3
-			medium_tank_destroyer_equipment_3
-			medium_tank_artillery_equipment_3
-			medium_tank_aa_equipment_3
-			
-			heavy_tank_equipment_1
-			heavy_tank_destroyer_equipment_1
-			heavy_tank_artillery_equipment_1
-			heavy_tank_aa_equipment_1
-			heavy_tank_equipment_2
-			heavy_tank_destroyer_equipment_2
-			heavy_tank_artillery_equipment_2
-			heavy_tank_aa_equipment_2
-			heavy_tank_equipment_3
-			heavy_tank_destroyer_equipment_3
-			heavy_tank_artillery_equipment_3
-			heavy_tank_aa_equipment_3
-			
-			super_heavy_tank_equipment_1
-			super_heavy_tank_destroyer_equipment_1
-			super_heavy_tank_artillery_equipment_1
-			super_heavy_tank_aa_equipment_1
-			
-			amphibious_tank_equipment_1
-			amphibious_tank_equipment_2
-
 		}
 		enable_subunits = {
 			light_armor
@@ -59,22 +13,6 @@ technologies = {
 			light_sp_artillery_brigade
 			light_sp_anti_air_brigade
 			
-			medium_armor
-			medium_tank_destroyer_brigade
-			medium_sp_artillery_brigade
-			medium_sp_anti_air_brigade
-			
-			heavy_armor
-			heavy_tank_destroyer_brigade
-			heavy_sp_artillery_brigade
-			heavy_sp_anti_air_brigade
-			
-			super_heavy_armor
-			super_heavy_tank_destroyer_brigade
-			super_heavy_sp_artillery_brigade
-			super_heavy_sp_anti_air_brigade
-			
-			amphibious_armor
 		}
 		on_research_complete_limit = {
 			NOT = {	has_template_containing_unit = light_armor }
@@ -103,25 +41,18 @@ technologies = {
 		}
 	
 		path = {
-			leads_to_tech = main_battle_tank
+			leads_to_tech = advanced_medium_tank
 			research_cost_coeff = 1
 		}
-	
-		path = {
-			leads_to_tech = basic_heavy_tank
-			research_cost_coeff = 1
-		}
+
 		
 		research_cost = 2
-		start_year = 1970
+		start_year = 2170
 		folder = {
 			name = armour_folder
 			position = { x = 0 y = 0 }
 		}
 		
-		allow = {
-			has_tech = revitalised_research_tech
-		}
 		
 		ai_will_do = {
 			base = 1
@@ -135,6 +66,120 @@ technologies = {
 		}
 	}
 	
+	advanced_medium_tank = { #Panther
+
+		enable_equipments = {
+			medium_tank_equipment_3
+		}
+
+		path = {
+			leads_to_tech = main_battle_tank
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 2
+		start_year = 2205
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 2 }
+		}
+
+		sub_technologies = {
+			advanced_medium_td
+			advanced_medium_art
+			advanced_medium_spaa
+		}
+
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+	}
+
+	advanced_medium_td = {
+
+		enable_equipments = {
+			medium_tank_destroyer_equipment_3
+		}
+
+		research_cost = 0.5
+		start_year = 2205
+
+		ai_will_do = {
+			base = 1
+
+
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+
+	advanced_medium_art = {
+
+		enable_equipments = {
+			medium_tank_artillery_equipment_3
+		}
+
+		research_cost = 0.5
+		start_year = 2205
+
+		ai_will_do = {
+			base = 1
+
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+
+	advanced_medium_spaa = {
+
+		enable_equipments = {
+			medium_tank_aa_equipment_3
+		}
+
+		research_cost = 0.5
+		start_year = 2205
+
+		ai_will_do = {
+			base = 0
+
+			modifier = {
+				factor = 0
+				OR = {
+					has_tech = modern_spaa
+					can_research = modern_spaa
+					is_researching_technology = main_battle_tank
+				}
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+	
 	main_battle_tank = { #E-50
 
 		enable_equipments = {
@@ -145,16 +190,13 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1984
+		start_year = 2210
 		
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = 2 }
+			position = { x = 0 y = 4 }
 		}
 		
-		allow = {
-			has_tech = revitalised_research_tech
-		}
 		
 		sub_technologies = {
 			modern_td
@@ -185,7 +227,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1984
+		start_year = 2210
 		
 		allow = {
 			has_tech = revitalised_research_tech
@@ -213,7 +255,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1984
+		start_year = 2210
 		
 		allow = {
 			has_tech = revitalised_research_tech
@@ -241,7 +283,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1984
+		start_year = 2210
 		
 		allow = {
 			has_tech = revitalised_research_tech

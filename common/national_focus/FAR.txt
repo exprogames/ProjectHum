@@ -33,12 +33,244 @@ focus_tree = {
 		
 		x = 16
 		y = 2
-		cost = 5
+		cost = 10
 		
 		completion_reward = {
 			add_political_power = 15
 			country_event = {
 				id = far.2
+				days = 3
+				random_hours = 12
+				random_days = 10
+			}
+		}
+	}
+	focus = {
+		id = FAR_old_birds_flying
+		icon = GFX_FAR_old_birds_flying
+		prerequisite = { focus = FAR_restoration_of_the_infrastructure }
+		
+		x = 16
+		y = 4
+		cost = 10
+		
+		completion_reward = {
+			add_political_power = 15
+			country_event = {
+				id = far.3
+				days = 3
+				random_hours = 12
+				random_days = 10
+			}
+		}
+	}
+	focus = {
+		id = FAR_industry_working_again
+		icon = GFX_FAR_industry_working_again 
+		prerequisite = { focus = FAR_old_birds_flying }
+		
+		x = 16
+		y = 6
+		cost = 10
+		
+		completion_reward = {
+			add_political_power = 15
+			country_event = {
+				id = far.4
+				days = 3
+				random_hours = 12
+				random_days = 10
+			}
+		}
+	}
+		focus = {
+		id = FAR_supplying_the_population
+		icon = GFX_FAR_supplying_the_population
+		prerequisite = { focus = FAR_industry_working_again }
+		
+		x = 16
+		y = 8
+		cost = 10
+		
+		completion_reward = {
+			add_political_power = 15
+			country_event = {
+				id = far.5
+				days = 3
+				random_hours = 12
+				random_days = 10
+			}
+		}
+	}
+	focus = {
+		id = FAR_mutant_raids
+		icon = GFX_FAR_mutant_raids
+		prerequisite = { focus = FAR_lonely_republic }
+		
+		x = 12
+		y = 2
+		cost = 10
+		
+		completion_reward = {
+			add_political_power = 15
+			country_event = {
+				id = far.6
+				days = 3
+				random_hours = 12
+				random_days = 10
+			}
+		}
+	}
+	focus = {
+		id = FAR_defend_our_land
+		icon = GFX_FAR_defend_our_land
+		prerequisite = { focus = FAR_mutant_raids }
+		
+		x = 12
+		y = 4
+		cost = 10
+		
+		completion_reward = {
+			add_political_power = 15
+			country_event = {
+				id = far.7
+				days = 3
+				random_hours = 12
+				random_days = 10
+			}
+		}
+	}
+	focus = {
+		id = FAR_train_the_population
+		icon = GFX_FAR_train_the_population
+		prerequisite = { focus = FAR_defend_our_land }
+		
+		x = 12
+		y = 6
+		cost = 10
+		
+		completion_reward = {
+			add_political_power = 15
+			country_event = {
+				id = far.8
+				days = 3
+				random_hours = 12
+				random_days = 10
+			}
+		}
+	}
+	focus = {
+		id = FAR_establish_reunification_commitee
+		icon = GFX_FAR_establish_reunification_commitee
+		prerequisite = { focus = FAR_train_the_population }
+		
+		x = 12
+		y = 8
+		cost = 10
+		
+		completion_reward = {
+			add_political_power = 15
+			country_event = {
+				id = far.9
+				days = 3
+				random_hours = 12
+				random_days = 10
+			}
+		}
+	}
+	
+	focus = {
+		id = FAR_state_of_our_leader
+		icon = GFX_FAR_state_of_our_leader
+		prerequisite = { focus = FAR_lonely_republic }
+		
+		x = 14
+		y = 2
+		cost = 10
+		
+		completion_reward = {
+			set_power_balance = { id = FAR_power_balance }
+			add_political_power = 15
+			country_event = {
+				id = far.10
+				days = 3
+				random_hours = 12
+				random_days = 10
+			}
+		}
+	}	
+	focus = {
+		id = FAR_raid_the_shizos
+		icon = GFX_FAR_propaganda_of_our_ideas
+		prerequisite = { focus = FAR_state_of_our_leader }
+		
+		x = 14
+		y = 4
+		cost = 10
+		
+		completion_reward = {
+			add_political_power = 15
+			country_event = {
+				id = far.11
+				days = 3
+				random_hours = 12
+				random_days = 10
+			}
+		}
+	}
+	focus = {
+		id = FAR_allies_abroad
+		icon = GFX_FAR_allies_abroad
+		prerequisite = { focus = FAR_raid_the_shizos }
+		
+		x = 14
+		y = 6
+		cost = 10
+		
+		completion_reward = {
+			add_political_power = 15
+			country_event = {
+				id = far.12
+				days = 3
+				random_hours = 12
+				random_days = 10
+			}
+		}
+	}
+	focus = {
+		id = FAR_buying_weapons
+		icon = GFX_FAR_buying_weapons
+		prerequisite = { focus = FAR_allies_abroad }
+		
+		x = 14
+		y = 8
+		cost = 10
+		
+		completion_reward = {
+			add_political_power = 15
+			country_event = {
+				id = far.13
+				days = 3
+				random_hours = 12
+				random_days = 10
+			}
+		}
+	}
+	focus = {
+		id = FAR_begin_the_reunification
+		icon = GFX_FAR_begin_the_reunification
+		prerequisite = { focus = FAR_buying_weapons }
+		prerequisite = { focus = FAR_establish_reunification_commitee }
+		prerequisite = { focus = FAR_supplying_the_population }
+		
+		x = 14
+		y = 10
+		cost = 10
+		
+		completion_reward = {
+			add_political_power = 15
+			country_event = {
+				id = far.14
 				days = 3
 				random_hours = 12
 				random_days = 10
