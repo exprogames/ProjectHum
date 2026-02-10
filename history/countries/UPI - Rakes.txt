@@ -1,0 +1,40 @@
+﻿capital = 282 # Tokyo/Kanto
+
+
+
+
+
+set_technology = {
+	
+	# Military Tech
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	marines  = 1
+	paratroopers = 1
+	gw_artillery = 1
+	bicycle_infantry = 1 # They start with it now 
+	JAP_silver_wheels = 1 # Small bicycle terrain boost 
+	JAP_lighter_tanks = 1 # Small tank terrain boost 
+	tech_military_police = 1
+
+	
+}
+
+
+
+
+# Setup Politics 
+set_politics = {
+	ruling_party = carnivor
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	mutants = 100
+}

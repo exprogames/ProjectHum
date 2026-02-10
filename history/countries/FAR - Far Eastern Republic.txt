@@ -5,6 +5,8 @@
 set_research_slots = 3
 
 recruit_character = FAR_Gavriil_Ratnikov
+recruit_character = FAR_Gavriil_Ratnikov_despot
+recruit_character = FAR_Gavriil_Ratnikov_democrat
 
 # Starting tech
 set_technology = {
