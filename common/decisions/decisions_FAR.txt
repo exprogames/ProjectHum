@@ -1,0 +1,57 @@
+FAR_balance_of_sanity_category = {
+	dont_take_pills = {
+		allowed = {
+			tag = FAR
+		}
+		visible = {
+			has_completed_focus = FAR_state_of_our_leader
+		}
+		ai_will_do = {
+			base = 2
+		}
+		icon = GFX_decision_FAR_dont_take_pills
+		days_remove = 10
+		fire_only_once = yes
+		modifier = {
+			stability_weekly = 0.01
+			political_power_cost = 0.5
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			add_power_balance_value = {
+				id = FAR_power_balance	
+				value = -1
+				tooltip_side = FAR_shizo_side	
+			}
+		}
+	}
+	take_pills = {
+		allowed = {
+			tag = FAR
+		}
+		visible = {
+			has_completed_focus = FAR_state_of_our_leader
+		}
+		ai_will_do = {
+			base = 2
+		}
+		icon = GFX_decision_FAR_take_pills
+		days_remove = 10
+		fire_only_once = yes
+		modifier = {
+			stability_weekly = 0.01
+			political_power_cost = 0.5
+		}
+		complete_effect = {
+		}
+		remove_effect = {
+			add_power_balance_value = {
+				id = FAR_power_balance	
+				value = 1
+				tooltip_side = FAR_positive_side	
+			}
+		}
+	}
+}
+

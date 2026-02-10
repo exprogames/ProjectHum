@@ -9,9 +9,36 @@ characters={
 		country_leader={
 			ideology = military_democracy
 			traits={  }
-			expire="2200.1.1.1"
+			expire="2300.1.1.1"
 			id=-1
 		}
 	}
-	
+	FAR_Gavriil_Ratnikov_despot={ 
+		name = FAR_Gavriil_Ratnikov_despot
+		portraits={
+			civilian={
+				large="GFX_portrait_FAR_Gavriil_Ratnikov_despot"
+			}
+		}
+		country_leader={
+			ideology = national_spartanism
+			traits={  }
+			expire="2300.1.1.1"
+			id=-1
+		}
+	}
+	FAR_Gavriil_Ratnikov_democrat={ 
+		name = FAR_Gavriil_Ratnikov_democrat
+		portraits={
+			civilian={
+				large="GFX_portrait_FAR_Gavriil_Ratnikov_democrat"
+			}
+		}
+		country_leader={
+			ideology = presidentary_democracy
+			traits={  }
+			expire="2300.1.1.1"
+			id=-1
+		}
+	}
 }

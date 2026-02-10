@@ -1,0 +1,17 @@
+characters={
+	IRG_Hasan_Rezafar={ 
+		name = HasanRezafar
+		portraits={
+			civilian={
+				large="GFX_portrait_IRG_Hasan_Rezafar"
+			}
+		}
+		country_leader={
+			ideology = ultranationalism
+			traits={  }
+			expire="2240.1.1.1"
+			id=-1
+		}
+	}
+	
+}

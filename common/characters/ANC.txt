@@ -1,0 +1,17 @@
+characters={
+	ANC_Vasiliy_Tutkin ={ 
+		name = VasiliyTutkin
+		portraits={
+			civilian={
+				large="GFX_portrait_ANC_Vasiliy_Tutkin"
+			}
+		}
+		country_leader={
+			ideology = anarcho_capitalism
+			traits={  }
+			expire="2240.1.1.1"
+			id=-1
+		}
+	}
+	
+}

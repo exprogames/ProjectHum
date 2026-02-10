@@ -1,0 +1,17 @@
+characters={
+	SHE_Ardashir_Pehlevi={ 
+		name = ArdashirPehlevi
+		portraits={
+			civilian={
+				large="GFX_portrait_SHE_Ardashir_Pehlevi"
+			}
+		}
+		country_leader={
+			ideology = national_patriotism
+			traits={  }
+			expire="2240.1.1.1"
+			id=-1
+		}
+	}
+	
+}
