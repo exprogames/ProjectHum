@@ -5,6 +5,26 @@ spriteTypes = {
 		texturefile = "gfx/leaders/FAR_Gavriil_Ratnikov.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_FAR_Gavriil_Ratnikov_despot"
+		texturefile = "gfx/leaders/FAR_Gavriil_Ratnikov_despot.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_FAR_Gavriil_Ratnikov_democrat"
+		texturefile = "gfx/leaders/FAR_Gavriil_Ratnikov_democrat.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ANC_Vasiliy_Tutkin"
+		texturefile = "gfx/leaders/ANC_Vasiliy_Tutkin.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SHE_Ardashir_Pehlevi"
+		texturefile = "gfx/leaders/SHE_Ardashir_Pehlevi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_IRG_Hasan_Rezafar"
+		texturefile = "gfx/leaders/IRG_Hasan_Rezafar.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_SWR_Michael_Pricer"
 		texturefile = "gfx/leaders/SWR_Michael_Pricer.dds"
 	}
