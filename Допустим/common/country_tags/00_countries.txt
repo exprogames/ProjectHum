@@ -1,0 +1,5 @@
+
+DUR	= "countries/Krasnoiarsk.txt"
+PON	= "countries/Panamerlo.txt"
+SXZ	= "countries/Saxa.txt"
+SXW	= "countries/Sama.txt"
