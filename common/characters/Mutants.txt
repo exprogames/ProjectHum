@@ -1,0 +1,17 @@
+characters={
+	UPI_Rakes ={ 
+		name = Rake
+		portraits={
+			civilian={
+				large="GFX_portrait_UPI_Rake"
+			}
+		}
+		country_leader={
+			ideology = carnivor
+			traits={  }
+			expire="2240.1.1.1"
+			id=-1
+		}
+	}
+	
+}

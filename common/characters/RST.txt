@@ -1,0 +1,17 @@
+characters={
+	RST_Maria_Hrenova={ 
+		name = MariaHrenova
+		portraits={
+			civilian={
+				large="GFX_portrait_RST_Maria_Hrenova"
+			}
+		}
+		country_leader={
+			ideology = national_bolshevizm
+			traits={  }
+			expire="2240.1.1.1"
+			id=-1
+		}
+	}
+	
+}

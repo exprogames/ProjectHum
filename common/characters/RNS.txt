@@ -1,0 +1,17 @@
+characters={
+	RNS_Ermalai_Baklushin={ 
+		name = ErmalaiBaklushin
+		portraits={
+			civilian={
+				large="GFX_portrait_RNS_Ermalai_Baklushin"
+			}
+		}
+		country_leader={
+			ideology = neonazism
+			traits={  }
+			expire="2240.1.1.1"
+			id=-1
+		}
+	}
+	
+}
