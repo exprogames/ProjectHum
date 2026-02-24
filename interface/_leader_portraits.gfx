@@ -40,6 +40,22 @@ spriteTypes = {
 		name = "GFX_portrait_FEP_Napoleon01"
 		texturefile = "gfx/leaders/FEP_Napoleon01.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_UPI_Rake"
+		texturefile = "gfx/leaders/UPI_Rakes.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RNS_Ermalai_Baklushin"
+		texturefile = "gfx/leaders/RNS_Ermalai_Baklushin.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_DRR_Daniil_Sedorenkov"
+		texturefile = "gfx/leaders/DRR_Daniil_Sedorenkov.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RST_Maria_Hrenova"
+		texturefile = "gfx/leaders/RST_Maria_Hrenova.dds"
+	}
 }
 	
 	
