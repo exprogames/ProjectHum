@@ -12,6 +12,7 @@ SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 163 17 31 }
 }
+
 SWE = {
 	color = rgb { 36 132 247 }
 	color_ui = rgb { 47 172 255 }
@@ -1215,4 +1216,12 @@ SWR = {
 COC = {
 	color = rgb { 255  216  0 }
 	color_ui = rgb { 255  216  0 }
+}
+KNS = {
+	color = rgb { 0 230 184 }
+	color_ui = rgb { 0 128 102 }
+}
+PRM = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
 }
