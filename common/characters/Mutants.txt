@@ -13,5 +13,18 @@ characters={
 			id=-1
 		}
 	}
-	
+	ZZ1_Moscow ={ 
+		name = MoscowZone
+		portraits={
+			civilian={
+				large="GFX_portrait_MoscowZone"
+			}
+		}
+		country_leader={
+			ideology = mystical_mutant
+			traits={  }
+			expire="2240.1.1.1"
+			id=-1
+		}
+	}
 }

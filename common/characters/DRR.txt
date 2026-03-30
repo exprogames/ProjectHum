@@ -1,13 +1,13 @@
 characters={
-	RST_Maria_Hrenova={ 
-		name = MariaHrenova
+	DRR_Daniil_Sedorenkov={ 
+		name = DaniilSedorenkov
 		portraits={
 			civilian={
-				large="GFX_portrait_RST_Maria_Hrenova"
+				large="GFX_portrait_DRR_Daniil_Sedorenkov"
 			}
 		}
 		country_leader={
-			ideology = national_bolshevism
+			ideology = presidentary_democracy
 			traits={  }
 			expire="2240.1.1.1"
 			id=-1

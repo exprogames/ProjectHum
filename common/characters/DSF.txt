@@ -1,13 +1,13 @@
 characters={
-	RST_Maria_Hrenova={ 
-		name = MariaHrenova
+	DSF_Ferdinand_McLasley={ 
+		name = FerdinandMcLasley
 		portraits={
 			civilian={
-				large="GFX_portrait_RST_Maria_Hrenova"
+				large="GFX_portrait_DSF_Ferdinand_McLasley"
 			}
 		}
 		country_leader={
-			ideology = national_bolshevism
+			ideology = libertherianism
 			traits={  }
 			expire="2240.1.1.1"
 			id=-1

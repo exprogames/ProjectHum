@@ -1,13 +1,13 @@
 characters={
-	RST_Maria_Hrenova={ 
-		name = MariaHrenova
+	SXZ_Arkadiy_Kozhevnikov = { 
+		name = ArkadiyKozhevnikov
 		portraits={
 			civilian={
-				large="GFX_portrait_RST_Maria_Hrenova"
+				large="GFX_portrait_SXZ_Arkadiy_Kozhevnikov"
 			}
 		}
 		country_leader={
-			ideology = national_bolshevism
+			ideology = carnivor
 			traits={  }
 			expire="2240.1.1.1"
 			id=-1
