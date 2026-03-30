@@ -1,8 +1,8 @@
 ﻿capital = 282 # Tokyo/Kanto
 
+set_research_slots = 3
 
-
-
+recruit_character = DRR_Daniil_Sedorenkov
 
 set_technology = {
 	
@@ -22,21 +22,28 @@ set_technology = {
 	JAP_lighter_tanks = 1 # Small tank terrain boost 
 	tech_military_police = 1
 
+	# Civilian Tech
+	basic_train = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
 	
 }
 
+set_convoys = 400
 
 
 
 # Setup Politics 
 set_politics = {
-	ruling_party = mutants
+	ruling_party = libertarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	mutants = 100
+	libertarian_democrat = 57
+	despotism = 24
+	authoritarian_democrat = 17
+	esotherism = 2
 }
-
-recruit_character = UPI_Rakes

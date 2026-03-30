@@ -1,8 +1,8 @@
 ﻿capital = 282 # Tokyo/Kanto
 
+set_research_slots = 3
 
-
-
+recruit_character = RST_Maria_Hrenova
 
 set_technology = {
 	
@@ -22,21 +22,28 @@ set_technology = {
 	JAP_lighter_tanks = 1 # Small tank terrain boost 
 	tech_military_police = 1
 
+	# Civilian Tech
+	basic_train = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
 	
 }
 
+set_convoys = 400
 
 
 
 # Setup Politics 
 set_politics = {
-	ruling_party = mutants
+	ruling_party = authoritarian_socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	mutants = 100
+	authoritarian_socialist = 67
+	national_socialist = 4
+	esotherism = 2
+	libertarian_democrat = 27
 }
-
-recruit_character = UPI_Rakes
