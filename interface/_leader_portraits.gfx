@@ -56,6 +56,14 @@ spriteTypes = {
 		name = "GFX_portrait_RST_Maria_Hrenova"
 		texturefile = "gfx/leaders/RST_Maria_Hrenova.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_SXZ_Arkadiy_Kozhevnikov"
+		texturefile = "gfx/leaders/SXZ_Arkadiy_Kozhevnikov.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_DSF_Ferdinand_McLasley"
+		texturefile = "gfx/leaders/DSF_Ferdinand_McLasley.dds"
+	}
 }
 	
 	
